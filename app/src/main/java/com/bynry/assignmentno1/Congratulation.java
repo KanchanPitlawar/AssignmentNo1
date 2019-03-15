@@ -39,6 +39,8 @@ public class Congratulation extends AppCompatActivity implements View.OnClickLis
     private void showAlertDialog() {
         final Dialog dialog = new Dialog(Congratulation.this);
         //dialog.setContentView(R.layout.custom_alert_box);
+        dialog
+                .setContentView(R.layout.custom_alert_box);
 
         final LayoutInflater layoutInflater = this.getLayoutInflater();
         final View vCustom = layoutInflater.inflate(R.layout.custom_alert_box, null, false);

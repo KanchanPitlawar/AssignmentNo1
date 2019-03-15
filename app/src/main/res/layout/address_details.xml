@@ -12,61 +12,57 @@
         android:layout_width="match_parent"
         android:layout_height="174dp"
         android:src="@drawable/bynrylogo" />
+
     <LinearLayout
-        android:orientation="vertical"
         android:id="@+id/relative1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        >
+        android:orientation="vertical">
+
         <EditText
             android:id="@+id/edt_temp_address"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="@dimen/marign_medium"
             android:hint="@string/edt_temp_address"
             android:textAlignment="center"
-            android:layout_margin="@dimen/marign_medium"
-            android:textSize="@dimen/text_size_medium"
-            />
+            android:textSize="@dimen/text_size_medium" />
 
         <EditText
             android:id="@+id/edt_per_address"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/edt_firstname"
+            android:layout_margin="@dimen/marign_medium"
             android:hint="@string/edt_per_address"
             android:textAlignment="center"
-            android:textSize="@dimen/text_size_medium"
-            android:layout_margin="@dimen/marign_medium"
-            />
+            android:textSize="@dimen/text_size_medium" />
+
         <Spinner
             android:id="@+id/spinner_state"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/edt_lastname"
             android:layout_margin="@dimen/marign_medium"
-            android:entries="@array/state"
-            >
-        </Spinner>
+            android:entries="@array/state"></Spinner>
 
         <Spinner
             android:id="@+id/spinner_city"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/spinner_state"
-            android:entries="@array/city"
-            android:layout_margin="@dimen/marign_medium">
-        </Spinner>
+            android:layout_margin="@dimen/marign_medium"
+            android:entries="@array/city"></Spinner>
 
         <EditText
             android:id="@+id/edt_pincode"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/spinner_city"
+            android:layout_margin="@dimen/marign_medium"
             android:hint="@string/edt_pincode"
             android:textAlignment="center"
-            android:textSize="@dimen/text_size_medium"
-            android:layout_margin="@dimen/marign_medium"
-            />
+            android:textSize="@dimen/text_size_medium" />
     </LinearLayout>
 
     <LinearLayout

@@ -30,9 +30,9 @@
             android:layout_marginLeft="@dimen/margin_radio"
             android:layout_marginTop="@dimen/margin_radio"
             android:layout_weight="1"
-            android:textColor="#ffff"
             android:background="@drawable/corner_shape"
-            android:text="@string/btn_no" />
+            android:text="@string/btn_no"
+            android:textColor="#ffff" />
 
         <Button
             android:id="@+id/btn_yes"
