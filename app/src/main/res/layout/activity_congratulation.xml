@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Congratulation">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="60dp"
+            android:text="@string/txt_welocme"
+            android:textAlignment="center"
+            android:textSize="@dimen/marign_medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_fullname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/txt_fullname"
+            android:textAlignment="center"
+            android:textSize="@dimen/marign_medium" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="100dp"
+            android:text="@string/txt_congo"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="50dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="30dp"
+            android:textAlignment="center"
+            android:text="@string/Txt_login_successful"
+            android:textSize="30dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn_closeapp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:background="@color/btn_signup_lightblue"
+            android:text="@string/txt_closeapp"
+            android:textSize="@dimen/text_size_medium" />
+    </RelativeLayout>
+</LinearLayout>

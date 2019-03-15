@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">AssignmentNo1</string>
+    <string name="edt_username">User Name</string>
+    <string name="edt_password">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="edt_firstname">First Name</string>
+    <string name="edt_lastname">Last Name</string>
+    <string name="edt_mobile">Mobile Number</string>
+    <string name="edt_cpassword">Confirm Password</string>
+    <string name="btn_signup">Sign Up</string>
+    <string name="btn_back">Back</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_submit">Submit</string>
+    <string name="edt_temp_address">Temporary Address</string>
+    <string name="edt_per_address">Permanent Address</string>
+    <string name="edt_pincode">Pincode</string>
+    <string name="txt_gender">Gender : </string>
+    <string name="txt_hobbies">Hobbies : </string>
+    <string name="radio_male">Male </string>
+    <string name="radio_female">Female </string>
+    <string name="chkbox_playing">Playing </string>
+    <string name="chkbox_swimming">Swimming </string>
+    <string name="chkbox_dancing">Dancing </string>
+    <string name="chkbox_reading">Reading </string>
+    <string name="txt_welocme">Welcome </string>
+    <string name="txt_fullname">Full Name </string>
+    <string name="txt_congo">Congratulations ! </string>
+    <string name="txt_closeapp">Close App </string>
+    <string name="Txt_login_successful">You are successfully login with BYNRY App </string>
+    <string name="txt_custom_alertbox">Do you really want to close app ? </string>
+    <string name="btn_no">No </string>
+    <string name="btn_yes">Yes </string>
+
+
+
+    <string-array name="state">State
+        <item name="one">Maharashtra</item>
+        <item name="two">MP</item>
+        <item name="three">UP</item>
+        <item name="four">AP</item>
+    </string-array>
+
+    <string-array name="city">City
+        <item name="one">Pune</item>
+        <item name="two">Mumbai</item>
+        <item name="three">Bhopal</item>
+        <item name="four">Indore</item>
+        <item name="five">Kanpur</item>
+        <item name="five">Agra</item>
+        <item name="six">Guntur</item>
+        <item name="seven">Tirupati</item>
+
+    </string-array>
+</resources>

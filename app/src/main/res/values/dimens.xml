@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin">30dp</dimen>
+    <dimen name="padding_custom">30dp</dimen>
+    <dimen name="marign_medium">20dp</dimen>
+    <dimen name="margin_small">10dp</dimen>
+    <dimen name="btn_margin">50dp</dimen>
+    <dimen name="text_size_medium">20sp</dimen>
+    <dimen name="edt_padding">20sp</dimen>
+    <dimen name="margin_checkbox">60dp</dimen>
+    <dimen name="margin_radio">30dp</dimen>
+</resources>

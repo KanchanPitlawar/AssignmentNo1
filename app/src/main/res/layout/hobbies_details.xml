@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HobbiesDetails">
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="match_parent"
+        android:layout_height="174dp"
+        android:src="@drawable/bynrylogo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_gender"
+        android:textSize="@dimen/text_size_medium"
+        android:textStyle="bold"
+        android:paddingLeft="@dimen/marign_medium"
+        />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_radio">
+
+    <RadioButton
+        android:id="@+id/johnCena"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/marign_medium"
+        android:layout_marginTop="@dimen/margin_small"
+        android:text="@string/radio_male"
+        android:textSize="@dimen/text_size_medium" />
+
+    <RadioButton
+        android:id="@+id/randyOrton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/marign_medium"
+        android:layout_marginTop="@dimen/margin_small"
+        android:checked="false"
+        android:text="@string/radio_female"
+        android:textSize="@dimen/text_size_medium" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="5">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:paddingLeft="@dimen/marign_medium"
+        android:text="@string/txt_hobbies"
+        android:textSize="@dimen/text_size_medium"
+        android:textStyle="bold"
+        />
+
+    <CheckBox
+        android:id="@+id/checkbox_playing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_checkbox"
+        android:text="@string/chkbox_playing"
+        android:textSize="@dimen/text_size_medium"
+        />
+
+    <CheckBox
+        android:id="@+id/checkbox_dancing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_checkbox"
+        android:text="@string/chkbox_dancing"
+        android:textSize="@dimen/text_size_medium"
+        />
+
+    <CheckBox
+        android:id="@+id/checkbox_swimming"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_checkbox"
+        android:text="@string/chkbox_swimming"
+        android:textSize="@dimen/text_size_medium"
+        />
+
+    <CheckBox
+        android:id="@+id/checkbox_reading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_checkbox"
+        android:text="@string/chkbox_reading"
+        android:textSize="@dimen/text_size_medium"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relative1"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/margin_small"
+            android:layout_weight="1"
+            android:background="@color/btn_login_blue"
+            android:text="@string/btn_back"
+            android:textSize="@dimen/text_size_medium" />
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/margin_small"
+            android:layout_weight="1"
+            android:background="@color/btn_login_blue"
+            android:text="@string/btn_submit"
+            android:textSize="@dimen/text_size_medium" />
+    </LinearLayout>
+</LinearLayout>
